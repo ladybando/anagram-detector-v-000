@@ -3,8 +3,8 @@ class Anagram
   @@all = []
   attr_accessor :anagrams
 
-  def initialize(anagram)
-    @anagram=anagram
+  def initialize(anagram-detector)
+    @anagram-detector = anagram-detector
   end
   def anagrams
     @anagrams=anagrams
