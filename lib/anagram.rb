@@ -3,10 +3,10 @@ class Anagram
   @@all = []
   attr_accessor :anagrams
 
-  def initialize(anagram-detector)
-    @anagram-detector = anagram-detector
+  def initialize(anagrams)
+    @anagrams = anagrams
   end
-  def anagrams
-    @anagrams=anagrams
+  def match(list)
+    list.select{|anagrams| anagrams.chars.sort == @anagrams.chars.sort}
   end
 end
